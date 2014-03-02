@@ -1,6 +1,6 @@
 var ASSERT = require("assert");
 
-describe('js-include:', function() {
+describe.only('js-include:', function() {
 
     var PATH = require('path');
     var FS = require('fs');
